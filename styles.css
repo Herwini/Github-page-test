@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e2f;
+  /* Fondo oscuro */
+  color: #f4f4f9;
+  /* Texto claro */
+}
+
+header {
+  background-color: #282846;
+  /* Azul oscuro */
+  text-align: center;
+  padding: 1.5rem 0;
+  color: white;
+  font-size: 1.8rem;
+}
+
+#music-genres {
+  padding: 20px;
+  display: block;
+}
+
+/* Estilo para las cajas */
+.genre {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  padding: 15px;
+  border: 1px solid #444;
+  /* Gris oscuro */
+  border-radius: 8px;
+  background-color: #2e2e4f;
+  /* Caja oscura */
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.genre h2 {
+  color: #ffd700;
+  /* Amarillo dorado */
+}
+
+.genre p {
+  font-size: 0.9rem;
+  color: #d1d1e0;
+  /* Gris claro */
+}
+
+.genre ul {
+  list-style: none;
+  padding: 0;
+  color: #d1d1e0;
+}
+
+/* Hover y Active */
+.genre:hover {
+  transform: scale(1.05);
+  background-color: #3e3e5f;
+  /* Azul tenue */
+}
+
+.genre:active {
+  background-color: rgba(255, 215, 0, 0.2);
+  /* Fondo dorado tenue */
+}
+
+/* Jerarquías */
+#music-genres>.genre:first-child {
+  border-color: #32cd32;
+  /* Verde */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #282846;
+  color: #f4f4f9;
+  font-size: 0.8rem;
+}
